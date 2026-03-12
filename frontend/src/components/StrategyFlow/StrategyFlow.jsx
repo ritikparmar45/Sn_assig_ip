@@ -21,7 +21,7 @@ const StrategyFlow = () => {
     };
 
     return (
-        <div className="strategy-flow-container" ref={containerRef}>
+        <div className="strategy-flow-container" style={{ position: 'relative' }} ref={containerRef}>
             <ProgressIndicator targetRef={containerRef} />
 
             <div className="steps-wrapper">

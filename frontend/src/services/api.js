@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-    baseURL: import.meta.env.PROD ? 'https://sn-assig-ip.vercel.app/api' : 'http://localhost:5000/api',
+    baseURL: import.meta.env.PROD ? 'https://sn-assig-ip.vercel.app/api' : 'http://127.0.0.1:5000/api',
 });
 
 export const submitInterest = async (data) => {

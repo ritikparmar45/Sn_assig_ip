@@ -18,7 +18,8 @@ const StepCard = ({ step, index, onInterestClick }) => {
             ref={cardRef}
             style={{
                 scale: scaleProgress,
-                opacity: opacityProgress
+                opacity: opacityProgress,
+                position: 'relative'
             }}
             className="step-card"
             whileHover={{ scale: 1.05, boxShadow: "0px 10px 30px rgba(99, 102, 241, 0.2)" }}

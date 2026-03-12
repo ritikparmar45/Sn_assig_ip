@@ -24,6 +24,6 @@ app.post('/api/interest', (req, res) => {
     return res.status(200).json({ message: 'Interest submitted successfully.' });
 });
 
-app.listen(PORT, () => {
+app.listen(PORT, '0.0.0.0', () => {
     console.log(`SniperThink Backend listening on port ${PORT}`);
 });
